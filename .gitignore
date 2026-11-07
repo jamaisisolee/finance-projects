@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------
+# Data: never commit. Course datasets and CRSP (WRDS) are not
+# redistributable; see the Data policy in README.md.
+# ---------------------------------------------------------------
+*.csv
+*.tsv
+*.gz
+*.zip
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.dta
+*.sas7bdat
+*.xls
+*.xlsx
+*.xlsm
+*.db
+*.sqlite
+
+# Data / cache folders created by the notebooks
+data/
+crsp/
+cache/
+exports/
+Task4_figure_previews/
+
+# Course handouts and lecture slides (copyrighted)
+*.pdf
+
+# Secrets
+.env
+*.key
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
